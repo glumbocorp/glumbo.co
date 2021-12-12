@@ -1,0 +1,92 @@
+.navbar {
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  z-index: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--ggray); 
+  box-shadow: var(--ggray) 0px 0px 4px;
+}
+
+.navlink {
+  text-decoration: none;
+  color:  white;  
+  font-family: 'DM Sans', sans-serif;
+  font-style: bold;
+  font-size: x-large;
+  flex-grow: 1;
+  margin: 0 40px;
+}
+
+.bigbox {
+  color: #1b1925;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 500px;
+  font-size: 60px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.bigboxholder {
+  display: flex;
+}
+
+.flatbuttonm {
+  background-color: var(--gmagenta);
+  box-shadow: var(--ggray) 4px 4px;
+  border-width: 0;
+  border-radius: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 50%;
+  color: var(--ggray);
+  width: 50%;
+}
+
+#shrinkcontainerrbb {
+  display: inline-block;
+  height: min-content;
+}
+
+#lbigbox {
+    background-color: var(--gpurple);
+}
+
+#rbigbox {
+  background-color: var(--gyellow);
+  align-content: space-between;
+}
+
+#bigbox::selection {
+  background-color: var(--gpurple);
+}
+
+#glumbocoin:hover {
+  color: var(--gpurple);
+}
+
+#kca:hover {
+  color: var(--gcyan);
+}
+
+#live:hover {
+  color: var(--gmagenta);
+}
+
+#chaos:hover {
+  color: var(--gyellow);
+}
+
+body {
+  background-color: var(--ggray);
+  color: white;
+  margin: auto;
+  --gcyan: #17ffe2;
+  --gyellow: #edff0f;
+  --gmagenta: #ff0fe7;
+  --gpurple:  #6817ff;
+  --ggray: #1b1925;
+}
