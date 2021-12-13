@@ -10,6 +10,24 @@ export default function Home() {
         <title>GlumboCorp</title>
         <meta name="description" content="Your Favorite Company" />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="preload"
+          href="/fonts/GlacialIndifference/GlacialIndifference-Regular.otf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/GlacialIndifference/GlacialIndifference-Bold.otf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/GlacialIndifference/GlacialIndifference-Italic.otf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
       <Navbar />
       <main className={styles.main}>

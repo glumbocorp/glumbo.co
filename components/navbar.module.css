@@ -13,8 +13,7 @@
 .navlink {
   text-decoration: none;
   color: white;
-  font-family: "DM Sans", sans-serif;
-  font-style: bold;
+  font-family: GlacialIndifference, "DM Sans", sans-serif;
   font-size: x-large;
   flex-grow: 1;
   margin: 0 40px;
@@ -34,4 +33,9 @@
 
 #chaos:hover {
   color: var(--gyellow);
+}
+
+#logo {
+  max-height: 100%;
+  max-width: 100%;
 }

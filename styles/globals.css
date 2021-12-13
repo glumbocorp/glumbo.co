@@ -2,8 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: GlacialIndifference, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
   background-color: var(--ggray);
   color: white;
   margin: auto;
@@ -21,4 +22,28 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: GlacialIndifference;
+  font-weight: normal;
+  font-style: normal;
+  src: url("/fonts/GlacialIndifference/GlacialIndifference-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: GlacialIndifference;
+  font-weight: bold;
+  font-style: normal;
+  src: url("/fonts/GlacialIndifference/GlacialIndifference-Bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: GlacialIndifference;
+  font-weight: normal;
+  font-style: italic;
+  src: url("/fonts/GlacialIndifference/GlacialIndifference-Italic.otf")
+    format("opentype");
 }
