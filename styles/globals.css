@@ -24,6 +24,11 @@ a {
   box-sizing: border-box;
 }
 
+.glumbocanvas {
+  width: 50vw;
+  height: 50vh;
+}
+
 @font-face {
   font-family: GlacialIndifference;
   font-weight: normal;
