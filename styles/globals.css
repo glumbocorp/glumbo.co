@@ -39,7 +39,14 @@ a {
 .canvaswrapper .bigtext {
     font-size: 7rem;
     font-weight: 700;
-    color: var(--gcyan);
+    color: var(--ggray);
+    margin: auto;
+}
+
+.canvaswrapper .smalltext {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--ggray);
     margin: auto;
 }
 

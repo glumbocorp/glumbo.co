@@ -3,7 +3,6 @@ import * as THREE from "three";
 import {Component} from "react";
 
 class App extends Component {
-
     componentDidMount() {
         const canvas = document.querySelector('#canvas');
         const scene = new THREE.Scene();
