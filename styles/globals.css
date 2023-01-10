@@ -29,6 +29,20 @@ a {
   height: 50vh;
 }
 
+.canvaswrapper {
+  background-color: var(--gmagenta);
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.canvaswrapper .bigtext {
+    font-size: 7rem;
+    font-weight: 700;
+    color: var(--gcyan);
+    margin: auto;
+}
+
 @font-face {
   font-family: GlacialIndifference;
   font-weight: normal;
