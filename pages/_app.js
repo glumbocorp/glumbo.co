@@ -57,10 +57,10 @@ class App extends Component {
                 <canvas id="canvas" className={"glumbocanvas"} />
                 <div>
                 <h1 className={"bigtext"}>
-                    THE WORLD'S FIRST AND ONLY EDIBLE CRYPTO.
+                    THE WORLD&apos;S FIRST AND ONLY EDIBLE CRYPTO.
                 </h1>
                 <h2 className={"smalltext"}>
-                    world's first choking hazard small parts warning. your toddler will LOVE crypto exchange and trading.
+                    world&apos;s first choking hazard small parts warning. your toddler will LOVE crypto exchange and trading.
                 </h2>
                 </div>
             </div>
