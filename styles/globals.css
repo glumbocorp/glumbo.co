@@ -29,11 +29,34 @@ a {
   height: 50vh;
 }
 
+.mainpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .canvaswrapper {
   background-color: var(--gmagenta);
   display: flex;
   padding-top: 90px;
   padding-bottom: 90px;
+  padding-right: 40px;
 }
 
 .canvaswrapper .bigtext {

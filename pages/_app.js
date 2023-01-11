@@ -53,15 +53,38 @@ class App extends Component {
 
     render() {
         return (
-            <div className={"canvaswrapper"}>
-                <canvas id="canvas" className={"glumbocanvas"} />
-                <div>
-                <h1 className={"bigtext"}>
-                    THE WORLD&apos;S FIRST AND ONLY EDIBLE CRYPTO.
-                </h1>
-                <h2 className={"smalltext"}>
-                    world&apos;s first choking hazard small parts warning. your toddler will LOVE crypto exchange and trading.
-                </h2>
+            <div className={"mainpage"}>
+                <div className={"canvaswrapper"}>
+                    <canvas id="canvas" className={"glumbocanvas"}/>
+                    <div>
+                        <h1 className={"bigtext"}>
+                            THE WORLD&apos;S FIRST AND ONLY EDIBLE CRYPTO.
+                        </h1>
+                        <h2 className={"smalltext"}>
+                            world&apos;s first choking hazard small parts warning. your toddler will LOVE crypto
+                            exchange and swallowing coin
+                        </h2>
+                    </div>
+                </div>
+                <div className={"contentwrapper"}>
+                    <h2 className={"bigh2"}>
+                        Easier than ever
+                    </h2>
+                    We have made it easier than ever to choke on digital coins. No longer do you have to get physical
+                    coins to choke on them and die and go to the hostpital. We put the &quot;innovation&quot; in going
+                    to the hospital/dying
+                    <br/>
+                    <h2 className={"bigh2"}>
+                        Hungry? Umm, not for long. Smile
+                    </h2>
+                    <div>
+                        We made food reimagined. Imagine a place where  some innovative food. Sometimes tho you will choke and then you die LMAO. Jk
+                        this was all just a joke LMFAO. Umm but not the part about innovation teehee. We put the &quot;innovation&quot; in &quot;meal innovation&quot;
+                    </div>
+                    <h2 className={"bigh2"}>Actually tho</h2>
+                    <div>
+                        You never take me seriously and I hate my job and i am so sad and have no money and am broke and have no money and am bald. Buy our coins please it will give me my hair back
+                    </div>
                 </div>
             </div>
         )
