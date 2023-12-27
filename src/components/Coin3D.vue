@@ -2,8 +2,8 @@
 import { onMounted, onUnmounted } from 'vue'
 import * as THREE from 'three'
 
-let canvas = null
-let renderer = null
+let canvas: HTMLCanvasElement | null = null
+let renderer: THREE.WebGLRenderer | null = null
 
 function onResize(e: Event) {
   if (canvas && renderer) {
@@ -13,6 +13,9 @@ function onResize(e: Event) {
 
 onMounted(() => {
   canvas = document.querySelector('#canvas')
+
+  if (!canvas) return;
+
   const scene = new THREE.Scene()
   const camera = new THREE.PerspectiveCamera(
     75,
@@ -26,6 +29,8 @@ onMounted(() => {
     alpha: true,
     antialias: false
   })
+
+  if (!renderer) return;
 
   renderer.setSize(canvas.clientWidth, canvas.clientHeight)
 
@@ -49,6 +54,7 @@ onMounted(() => {
     cylinder.rotation.x += 0.01
     cylinder.rotation.y += 0.01
 
+    if (!renderer) return;
     renderer.render(scene, camera)
   }
 
