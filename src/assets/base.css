@@ -1,0 +1,78 @@
+:root {
+  --gt-c-cyan: #17ffe2;
+  --gt-c-yellow: #edff0f;
+  --gt-c-magenta: #ff0fe7;
+  --gt-c-purple: #6817ff;
+  --gt-c-gray-drk: #15151c;
+  --gt-c-gray: #1b1925;
+  --gt-c-gray-lit: #312d47;
+}
+
+:root {
+  --c-text: white;
+  --c-bg-0: var(--gt-c-gray-drk);
+  --c-bg-1: var(--gt-c-gray);
+  --c-border: var(--gt-c-gray-lit);
+}
+
+@font-face {
+  font-family: GlacialIndifference;
+  src:
+    local('GlacialIndifference'),
+    url('@/assets/fonts/GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GlacialIndifference;
+  src:
+    local('GlacialIndifference'),
+    url('@/assets/fonts/GlacialIndifference-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GlacialIndifference;
+  src:
+    local('GlacialIndifference'),
+    url('@/assets/fonts/GlacialIndifference-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+html,
+body {
+  min-height: 100vh;
+  color: var(--c-text);
+  background: var(--c-bg-0);
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  font-family:
+    GlacialIndifference,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+  margin: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
