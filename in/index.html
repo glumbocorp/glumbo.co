@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlumboCoin</title>
+    <link rel="stylesheet" href="/css/gorp.css">
+    <style>
+        #split-banner {
+            height: 24rem;
+            display: flex;
+        }
+
+        #split-banner>div {
+            flex-grow: 1;
+            flex-basis: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            font-size: 4rem;
+            color: var(--gt-c-gray);
+            background-color: var(--gt-c-purple);
+        }
+
+        #doxx-me {
+            background-color: var(--gt-c-magenta);
+            box-shadow: var(--gt-c-gray) 4px 4px;
+            border-width: 0;
+            border-radius: 0;
+            font-size: 50%;
+            width: 50%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="/" id="logo">
+            <img src="/images/logo.png" alt="logo" />
+        </a>
+        <nav>
+            <a href="https://discord.gg/6s7eZy3QPw">Chats</a>
+            <a href="https://soundcloud.com/glumbo-sound-team">Sounds</a>
+            <a href="https://www.youtube.com/@GlumboCorpTMKidsChoiceAwards">Videos</a>
+            <a href="/in" class="navlink" id="chaos">Chaos</a>
+        </nav>
+    </header>
+    <main>
+        <div id="split-banner">
+            <div>We know your address.</div>
+            <div style="background-color:var(--gt-c-yellow)">
+                Find out how:
+
+                <button id="doxx-me">doxx me</button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>THE WORLD'S FIRST AND ONLY EDIBLE CRYPTO.</h1>
+            <h3>
+                <i>world's first choking hazard. small parts warning: your toddler will LOVE crypto exchange and
+                    swallowing coin!!</i>
+            </h3>
+            <h2>Easier than ever</h2>
+            <p>We have made it easier than ever to choke on digital coins. No longer do you have to get physical coins
+                to choke on them and die and go to the hostpital. We put the "innovation" in going to the hospital/dying
+            </p>
+            <h2>Hungry? Umm, not for long. Smile</h2>
+            <p>We made food reimagined. Imagine a place where some innovative food. Sometimes tho you will choke and
+                then you die LMAO. Jk this was all just a joke LMFAO. Umm but not the part about innovation teehee. We
+                put the "innovation" in "meal innovation"</p>
+            <h2>Actually tho</h2>
+            <p>You never take me seriously and I hate my job and i am so sad and have no money and am broke and have no
+                money and am bald. Buy our coins please it will give me my hair back</p>
+        </div>
+    </main>
+    <script>
+        document.getElementById("doxx-me").addEventListener('click', (event) => {
+            event.target.innerHTML = 'we lied lmao';
+        });
+    </script>
+</body>
+
+</html>

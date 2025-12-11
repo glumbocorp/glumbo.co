@@ -1,13 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GlumboCorp</title>
+    <link rel="stylesheet" href="/css/gorp.css" />
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      main {
+        flex: auto;
+        display: flex;
+        place-items: center;
+        justify-content: center;
+      }
+      h1 {
+        font-size: 4rem;
+      }
+    </style>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <header>
+      <a href="/" id="logo">
+        <img src="/images/logo.png" alt="logo" />
+      </a>
+      <nav>
+        <a href="https://discord.gg/6s7eZy3QPw">Chats</a>
+        <a href="https://soundcloud.com/glumbo-sound-team">Sounds</a>
+        <a href="https://www.youtube.com/@GlumboCorpTMKidsChoiceAwards"
+          >Videos</a
+        >
+        <a href="/in">Chaos</a>
+      </nav>
+    </header>
+    <main>
+      <h1>glumbocorp!</h1>
+    </main>
   </body>
 </html>

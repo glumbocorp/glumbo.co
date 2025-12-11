@@ -19,7 +19,7 @@
   font-family: GlacialIndifference;
   src:
     local('GlacialIndifference'),
-    url('@/assets/fonts/GlacialIndifference-Regular.otf') format('opentype');
+    url('/fonts/GlacialIndifference/GlacialIndifference-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,10 +28,11 @@
   font-family: GlacialIndifference;
   src:
     local('GlacialIndifference'),
-    url('@/assets/fonts/GlacialIndifference-Bold.otf') format('opentype');
+    url('/fonts/GlacialIndifference/GlacialIndifference-Bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
+
 
 @font-face {
   font-family: GlacialIndifference;
@@ -53,9 +54,9 @@
 html,
 body {
   min-height: 100vh;
+  line-height: 1.6;
   color: var(--c-text);
   background: var(--c-bg-0);
-  line-height: 1.6;
   padding: 0;
   margin: 0;
   font-family:
@@ -75,4 +76,76 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  height: 3rem;
+  display: flex;
+  position: relative;
+  z-index: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--c-bg-1);
+  box-shadow: var(--c-bg-1) 0px 0px 4px;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: GlacialIndifference, 'DM Sans', sans-serif;
+  font-size: x-large;
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav a:hover {
+  color: var(--gt-c-yellow);
+}
+
+nav a:nth-child(4n + 1):hover {
+  color: var(--gt-c-purple);
+}
+
+nav a:nth-child(4n + 2):hover {
+  color: var(--gt-c-cyan);
+}
+
+nav a:nth-child(4n + 3):hover {
+  color: var(--gt-c-magenta);
+}
+
+#logo {
+  max-height: 48px;
+}
+
+#logo img {
+  width: 48px;
+  height: 48px;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  margin: 1rem 2rem;
+}
+
+h3 {
+  opacity: 0.5;
+}
+
+h3,
+p,
+button {
+  font-family: DM Sans, Inter, Segoe UI, sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  padding-left: 1em;
+  padding-bottom: .8rem;
 }
